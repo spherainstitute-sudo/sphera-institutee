@@ -61,9 +61,3 @@ export default function Home() {
     </div>
   );
 }
-
-// Para gerar o pacote ZIP completo com esta página, outras rotas e integração com Resend:
-// 1. Adicione todos os arquivos citados (PlacementForm.jsx, app/test/page.jsx, app/api/sendEmail/route.js, layout.jsx, globals.css)
-// 2. Compacte o projeto (ZIP) com estrutura padrão Next.js
-// 3. Faça upload no GitHub e conecte à Vercel para o deploy
-// O site ficará pronto em segundos após o build 🚀
